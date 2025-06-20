@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Challenge Enhancement</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+
+</head>
+<body>
+  <header>
+    <h1>Contact</h1>
+    <nav>
+      <a href="portfolio.html">Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone"><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="30" required></textarea><br><br>
+
+      <p>Preferred Contact Method:</p>
+      <input type="checkbox" name="contact_method" value="email"> Email
+      <input type="checkbox" name="contact_method" value="phone"> Phone
+      <input type="checkbox" name="contact_method" value="text"> Text<br><br>
+
+      <p>Inquiry Type:</p>
+      <input type="radio" name="inquiry" value="general" required> General
+      <input type="radio" name="inquiry" value="business"> Business
+      <input type="radio" name="inquiry" value="support"> Support<br><br>
+
+      
+        <!-- Other existing inputs -->
+      
+        <label for="service">Select a Service:</label>
+        <select id="service" name="service">
+          <option value="web">Web Development</option>
+          <option value="design">UI/UX Design</option>
+          <option value="consult">Consulting</option>
+        </select><br><br>
+      
+        <label for="date">Preferred Date:</label>
+        <input type="date" id="date" name="date"><br><br>
+      
+        <label for="budget">Budget Range:</label>
+        <input type="range" id="budget" name="budget" min="100" max="10000" step="100"><br><br>
+      
+        <!-- Validation Example -->
+        <label for="zip">ZIP Code:</label>
+        <input type="text" id="zip" name="zip" pattern="[0-9]{6}" title="Six-digit ZIP code"><br><br>
+     
+
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+</body>
+</html>

@@ -1,0 +1,20 @@
+HTML Fundamentals Assignment Documentation
+
+1. HTML Elements:
+   - <h1> to <h6>: Used to define heading levels and content hierarchy.
+   - <nav>: Creates a navigation menu for easy page access.
+   - <ul>, <ol>, <li>: Represent unordered and ordered lists for structured data.
+   - <table>: Used to present work experience/project data.
+   - <form>, <input>, <textarea>: Collect user input.
+   - <section>, <main>, <header>, <footer>: Semantic tags for meaningful structure.
+
+2. Input Types:
+   - "email" ensures valid email format.
+   - "tel" allows phone-specific input on mobile.
+   - "range", "date", and "select" improve UX.
+   - "radio" and "checkbox" allow multiple or single-choice selection.
+
+3. Navigation Structure:
+   - Links provided at the top of every page using <nav>.
+   - Internal links point to `about.html` and `contact.html`.
+   - External link in `about.html` (LinkedIn).

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+
+</head>
+<body>
+  <header>
+    <h1>Contact</h1>
+    <nav>
+      <a href="portfolio.html">Home</a>
+    </nav>
+  </header>
+
+  <main>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone Number:</label>
+      <input type="tel" id="phone" name="phone"><br><br>
+
+      <label for="message">Message:</label><br>
+      <textarea id="message" name="message" rows="4" cols="30" required></textarea><br><br>
+
+      <p>Preferred Contact Method:</p>
+      <input type="checkbox" name="contact_method" value="email"> Email
+      <input type="checkbox" name="contact_method" value="phone"> Phone
+      <input type="checkbox" name="contact_method" value="text"> Text<br><br>
+
+      <p>Inquiry Type:</p>
+      <input type="radio" name="inquiry" value="general" required> General
+      <input type="radio" name="inquiry" value="business"> Business
+      <input type="radio" name="inquiry" value="support"> Support<br><br>
+
+      <input type="submit" value="Submit">
+    </form>
+  </main>
+</body>
+</html>
